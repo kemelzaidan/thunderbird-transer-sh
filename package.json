@@ -1,0 +1,15 @@
+{
+  "title": "Thunderbird Transfer.sh Addon",
+  "name": "devel",
+  "version": "0.0.1",
+  "description": "Adds Transfer.sh support to large files attachment feature",
+  "main": "index.js",
+  "author": "Kemel Zaidan <kemelzaidan@gmail.com>",
+  "engines": {
+    "thunderbird": ">=38.0a1"
+  },
+  "license": "GPL3",
+  "keywords": [
+    "jetpack"
+  ]
+}
