@@ -33,18 +33,17 @@ nsTransferSh.prototype = {
   /* nsISupports */
   QueryInterface: XPCOMUtils.generateQI([Ci.nsIMsgCloudFileProvider]),
 
-  classID: Components.ID("{57c44a6d-2ffd-4554-8a57-a592f8361176}"),
+  classID: Components.ID("{c5c71fec-3c8f-47ba-aabb-9c1a32a4b08a}"),
 
   get type() "TransferSh",
   get displayName() "Transfer.sh",
   get serviceURL() gServerUrl,
-  get iconClass() "chrome://cloudfile-seafile/skin/seafile_16.png",
+  get iconClass() "chrome://transfersh/content/terminal.png",
   get lastError() this._lastErrorText,
-  get settingsURL() "chrome://cloudfile-seafile/content/settings.xhtml",
-  get managementURL() "chrome://cloudfile-seafile/content/management.xhtml",
+  // get settingsURL() "chrome://cloudfile-seafile/content/settings.xhtml",
+  // get managementURL() "chrome://cloudfile-seafile/content/management.xhtml",
 
   _prefBranch: null,
-  _loggedIn: false,
   _libraryCreate: "",
   _file : null,
   _requestDate: null,
