@@ -1,0 +1,4 @@
+content transfersh chrome/content
+component {c5c71fec-3c8f-47ba-aabb-9c1a32a4b08a} components/nsTransferSh.js
+contract @mozilla.org/mail/transfer.sh;1 {c5c71fec-3c8f-47ba-aabb-9c1a32a4b08a}
+category cloud-files Transfer.sh @mozilla.org/mail/transfer.sh;1

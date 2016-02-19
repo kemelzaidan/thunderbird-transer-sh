@@ -3,13 +3,16 @@
   "name": "devel",
   "version": "0.0.1",
   "description": "Adds Transfer.sh support to large files attachment feature",
-  "main": "index.js",
+  "main": "components/index.js",
   "author": "Kemel Zaidan <kemelzaidan@gmail.com>",
   "engines": {
-    "thunderbird": ">=38.0a1"
+    "thunderbird": ">=13.0"
   },
   "license": "GPL3",
   "keywords": [
-    "jetpack"
+    "jetpack",
+    "filelink",
+    "tranfer.sh",
+    "large files"
   ]
 }
